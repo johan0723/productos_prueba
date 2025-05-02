@@ -356,6 +356,13 @@ button#nextBtn:hover {
     border-radius: 5px;
   }
 
+  #productList li button {
+    padding: 5px 8px;
+    font-size: 0.95rem;
+    margin-left: 6px;
+    border-radius: 6px;
+  }
+
   .admin-btn,
   .toggle-form-btn {
     font-size: 0.97rem;
@@ -432,12 +439,3 @@ button#nextBtn:hover {
   }
 }
 
-/* Ajuste para botones en productList en moviles */
-@media (max-width: 600px) {
-  #productList li button {
-    padding: 5px 8px;
-    font-size: 0.95rem;
-    margin-left: 6px;
-    border-radius: 6px;
-  }
-}
